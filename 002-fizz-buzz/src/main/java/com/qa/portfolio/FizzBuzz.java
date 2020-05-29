@@ -15,6 +15,19 @@ public class FizzBuzz {
 	 * @return "fizz", "buzz", "fizzbuzz" or numeric value as a string
 	 */
 	public String fizzBuzz(int number) {
-    	return "";
+		
+	
+			if (number % 3 == 0 && number % 5 == 0) { 
+					return "fizzbuzz"; 
+					} else if (number % 5 == 0 ) {
+						return "buzz";
+					} else if (number % 3 == 0) {
+						return "fizz";
+					} else {
+						return (String.valueOf(number));  
+					}
+						
+		
+    	
 	}
 }
